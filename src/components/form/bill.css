@@ -1,0 +1,65 @@
+.form-content {
+    background-color: rgb(200, 245, 245);
+    padding: 2rem;
+    width: 80%;
+    max-width: 40rem;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+    border-radius: 0.7rem;
+    overflow: auto;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    max-height: 80vh;
+}
+
+.add-button {
+    width: 120px;
+    padding: 0.625rem 1.5625rem;
+    color: #fff;
+    background-color: #474747;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.Send {
+    border: none;
+    padding: 0.625rem 1.5625rem;
+    color: #fff;
+    background-color: #474747;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.form > label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form > input,
+.text-area {
+    padding: 0.5rem;
+    outline: 0.3rem solid #eaeaea;
+    border-radius: 0.3em;
+    border-color: #000;
+    font-weight: 300;
+}
+
+.title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}

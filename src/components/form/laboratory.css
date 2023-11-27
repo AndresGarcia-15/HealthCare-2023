@@ -1,0 +1,72 @@
+.form-content {
+    background-color:rgb(200, 245, 245);
+    padding: 2rem;
+    width: 40rem;
+    height: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+    border-radius: 0.7rem;
+    overflow: auto;
+    color:#000;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    max-height: 100vh;  /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;  /* Habilita la barra de desplazamiento vertical si es necesario */
+}
+
+
+.form { 
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.Send {
+    border: none;
+    padding: 0.625rem 1.5625rem;
+    color: #070606;
+}
+
+.form > input{
+    padding: .5rem;
+    outline: .3rem solid #eaeaea;
+    border-radius: .3em;
+    border-color:#000;
+    font-weight: 300;
+}
+
+.text-area{
+    border-radius: .3rem;
+    border-color:#000;
+    font-weight: 300;
+}
+
+.title{
+    font-family: 'Exo 2', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.policy{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    text-decoration: underline;
+}
+
+.form-child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title2 {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Exo 2', sans-serif;
+}
