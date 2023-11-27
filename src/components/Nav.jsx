@@ -22,7 +22,7 @@ import Login from './Login'
           <a className="flex title-font font-medium items-center text-black mb-4 md:mb-0">
             <div className="w-20 h-20 overflow-hidden">
               <img
-                src="https://i.ibb.co/Bzm3nZQ/health-Care-logo.jpg"
+                src="./src/assets/health_Care_logo.jpg"
                 alt="Logo"
                 className="w-800 h-full rounded-lg border-2 border-black"
               />
